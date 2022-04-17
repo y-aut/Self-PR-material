@@ -34,10 +34,8 @@
 
 某人気ゲームの模倣作品．ぷよぷよの全消しやテトリスの T スピン，REN，Back to Back などのルールも完全再現．CPU が用意されており，対 CPU 戦や CPU 同士での対戦が楽しめる．CPU の開発にかなり力を入れており，ぷよぷよでは 14 連鎖以上の大連鎖を繰り出すこともしばしば．テトリスでは，T スピンや REN も考慮に入れて操作している．さらに，次に降ってくるぷよやミノ，相手の盤面状況なども考慮してリアルタイムに判断している．
 
-<img src="/img/puyotet1.png" alt="動作例" width="500pt">
-
+<img src="/img/puyotet1.png" alt="動作例" width="500pt">  
 ↑ ぷよぷよ対テトリスの対戦画面．ともに CPU が操作している．
 
-<img src="/img/puyotet2.png" alt="動作例" width="500pt">
-
+<img src="/img/puyotet2.png" alt="動作例" width="500pt">  
 ↑ ぷよぷよ同士の対戦画面．右の CPU が 14 連鎖を撃ったところ．
