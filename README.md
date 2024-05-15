@@ -109,6 +109,20 @@ Selenium を使用して Google Chrome を操作し，ページから空き状�
 
 ↑ ぷよぷよ同士の対戦画面．右の CPU が 14 連鎖を撃ったところ．
 
+#### デモ動画
+
+##### ぷよぷよ vs ぷよぷよ
+
+https://youtu.be/n3jEeocoyq8
+
+##### テトリス vs ぷよぷよ
+
+https://youtu.be/TkIJ2EmQmoI
+
+##### テトリス vs テトリス
+
+https://youtu.be/YrY1WDrcJUM
+
 ### ルート解析ソフト
 
 開発言語: C#, C++  
