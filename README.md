@@ -38,7 +38,7 @@
 
 Selenium を使用して Google Chrome を操作し，ページから空き状況を取得する．取得したデータは画像にして，Slack Bot を通じて専用のチャンネルに 1 時間おきに投稿される．
 
-<img src="/img/court1.png" alt="動作例" width="500pt">
+<img src="./img/court1.png" alt="動作例" width="500pt">
 
 ↑ 投稿される画像の例．
 
@@ -53,11 +53,11 @@ Selenium を使用して Google Chrome を操作し，ページから空き状�
 
 将棋思考エンジン．コンソールアプリケーションで，現在の盤面や思考時間をコマンドで送ると，最善手や読み筋が返ってくる．送受信は [USI プロトコル](http://shogidokoro.starfree.jp/usi.html "将棋所：USIプロトコルとは") に従って行う．世界コンピュータ将棋選手権で上位に入るようなトップレベルの将棋エンジンには，オープンソース化されているものが多く，高速に処理する方法をそれらのコードから勉強して可能な限り実装した．
 
-<img src="/img/shogi1.png" alt="動作例" width="500pt">
+<img src="./img/shogi1.png" alt="動作例" width="500pt">
 
 ↑ 将棋の GUI アプリケーションを用いて，作成した将棋エンジン同士で対局させている．
 
-<img src="/img/shogi2.png" alt="動作例" width="500pt">
+<img src="./img/shogi2.png" alt="動作例" width="500pt">
 
 ↑ コマンド送受信のようす．
 
@@ -69,11 +69,11 @@ Selenium を使用して Google Chrome を操作し，ページから空き状�
 某人気ゲームの模倣作品．ぷよぷよの全消しやテトリスの T スピン，REN，Back to Back などのルールも完全再現．CPU が用意されており，対 CPU 戦や CPU 同士での対戦が楽しめる．CPU の開発にかなり力を入れており，ぷよぷよでは 14 連鎖以上の大連鎖を繰り出すこともしばしば．テトリスでは，T スピンや REN も考慮に入れて操作している．さらに，次に降ってくるぷよやミノ，相手の盤面状況なども考慮してリアルタイムに判断している．  
 将棋エンジンの開発で学習したビットボードによる高速化手法などをふんだんに取り入れ，高い性能を実現している．
 
-<img src="/img/puyotet1.png" alt="動作例" width="500pt">
+<img src="./img/puyotet1.png" alt="動作例" width="500pt">
 
 ↑ ぷよぷよ対テトリスの対戦画面．ともに CPU が操作している．
 
-<img src="/img/puyotet2.png" alt="動作例" width="500pt">
+<img src="./img/puyotet2.png" alt="動作例" width="500pt">
 
 ↑ ぷよぷよ同士の対戦画面．右の CPU が 14 連鎖を撃ったところ．
 
@@ -84,7 +84,7 @@ Selenium を使用して Google Chrome を操作し，ページから空き状�
 
 よくある人気スマホゲームのルート解析ソフト．GUI 部分は C# で，思考部分は C++で開発した．どのドロップを優先して消すかや，探索深さなどのパラメータも詳細に設定可能．将棋エンジンを作ったおかげで，探索部は楽に作成できた．実装にはビットボードなどを用いて高速化にも力を入れている．
 
-<img src="/img/pd1.gif" alt="動作例" width="250pt">
+<img src="./img/pd1.gif" alt="動作例" width="250pt">
 
 ↑ 解析したルートに沿ってドロップを操作している．
 
@@ -97,7 +97,7 @@ Selenium を使用して Google Chrome を操作し，ページから空き状�
 
 ナンバープレース（数独）のソルバー．Excel VBA を用いて作った解き方を示しながら問題を解いたり，難易度を指定して問題を作成したりと多くの機能を備えている．インターネットで多種多様な解法を調べてインプットしてある．UI には Excel のリボンを用いているので，操作性にも優れている．
 
-<img src="/img/number1.png" alt="動作例" width="500pt">
+<img src="./img/number1.png" alt="動作例" width="500pt">
 
 ↑ ステップごとに解法を示しながら問題を解く．
 
@@ -108,11 +108,11 @@ Selenium を使用して Google Chrome を操作し，ページから空き状�
 
 中学のときに Excel で作ったもののリメイク．GUI 部分は C# で，思考部分は C++で開発した．より多くの解法を抽象化して実装し，ビットボードを用いて大幅に高速化した．
 
-<img src="/img/number2.png" alt="動作例" width="500pt">
+<img src="./img/number2.png" alt="動作例" width="500pt">
 
 ↑ Excel 版よりも多くのテクニックがある．
 
-<img src="/img/number3.png" alt="動作例" width="500pt">
+<img src="./img/number3.png" alt="動作例" width="500pt">
 
 ↑ コマンド送受信のようす．
 
@@ -123,11 +123,11 @@ Selenium を使用して Google Chrome を操作し，ページから空き状�
 
 Excel で作成したルービックキューブのソルバー．キューブを動かしてシミュレーションしたり，揃えるまでの手順を調べたりできる．また，揃えたい状態を入力することで，キューブを完成させるだけでなく任意の状態にする手順を探索することもできる．こちらも UI にはリボンを使用している．Undo / Redo 機能も備えており，操作性に優れる．
 
-<img src="/img/rubiks1.png" alt="動作例" width="700pt">
+<img src="./img/rubiks1.png" alt="動作例" width="700pt">
 
 ↑ キューブを揃える手順を表示できる．
 
-<img src="/img/rubiks2.png" alt="動作例" width="700pt">
+<img src="./img/rubiks2.png" alt="動作例" width="700pt">
 
 ↑ 目標の状態を任意に設定できる．
 
@@ -139,6 +139,6 @@ Excel で作成したルービックキューブのソルバー．キューブ�
 身内で流行った「みんなで早押しクイズ」の学習用ツール．リニューアル前のアプリの UI に似せており，実践的に楽しく学習することができる．間違えた問題を記録して，正解率の低い問題や前回の学習から日の空いた問題を優先して学習することが可能．  
 問題リストは CSV 形式でインポート・エクスポートできる．
 
-<img src="/img/quiz.png" alt="動作例" width="600pt">
+<img src="./img/quiz.png" alt="動作例" width="600pt">
 
 ↑ ボタンを押すと解答できる．本家アプリと同じく，一文字ずつ 4 択の中から選択していく仕様．
