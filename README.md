@@ -56,10 +56,23 @@
 
 ### 短歌 SNS
 
-開発言語: Django (DRF), React  
-作成時期: 大 M1（鋭意制作中）
+開発言語: Django, React  
+作成時期: 大 M1
 
-ユーザーが短歌を投稿して評価し合える SNS を 4 人でのチームで開発中．AI による感情分析を利用して，ユーザーの投稿の傾向を分析して表示することができる．
+ユーザーが短歌を投稿して評価し合える SNS を 4 人でのチームで開発．AI による感情分析を利用して，ユーザーの投稿の傾向を分析して表示することができる．
+
+使用パッケージ（一部）:  
+backend: `Django REST Framework`, `Hugging Face`, `PyTorch`  
+frontend: `react-router-dom`, `typescript`, `@emotion`, `@mui`, `@react-google-maps/api`
+
+<div style="display: flex; gap: 10px; margin: 10px 0;">
+  <img src="./img/utakai/home.png" alt="ホーム画面" width="200pt">
+  <img src="./img/utakai/home_search.png" alt="ホーム画面" width="200pt">
+  <img src="./img/utakai/post_detail.png" alt="ホーム画面" width="200pt">
+  <img src="./img/utakai/ranking.png" alt="ホーム画面" width="200pt">
+</div>
+
+↑ ホーム画面には投稿の場所にピンが表示される．ユーザーが投稿をすると，感情分析の結果が即座にレーダーチャートに表示される．
 
 ### テニスコートの空き状況確認ツール
 
