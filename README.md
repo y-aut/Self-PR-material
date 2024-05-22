@@ -61,6 +61,12 @@
 
 ユーザーが短歌を投稿して評価し合える SNS を 4 人でのチームで開発．AI による感情分析を利用して，ユーザーの投稿の傾向を分析して表示することができる．
 
+自身の担当:
+- フロントエンド（ホーム，投稿一覧，ログイン）  
+- バックエンド（viewsets/serializers 全般，ダミーデータ生成，ML 組み込み）  
+- インフラ（Docker）
+- 機械学習
+
 使用パッケージ（一部）:  
 backend: `Django REST Framework`, `Hugging Face`, `PyTorch`  
 frontend: `react-router-dom`, `typescript`, `@emotion`, `@mui`, `@react-google-maps/api`
@@ -72,7 +78,7 @@ frontend: `react-router-dom`, `typescript`, `@emotion`, `@mui`, `@react-google-m
   <img src="./img/utakai/ranking.png" alt="ホーム画面" width="200pt">
 </div>
 
-↑ ホーム画面には投稿の場所にピンが表示される．ユーザーが投稿をすると，感情分析の結果が即座にレーダーチャートに表示される．
+↑ ホーム画面にはマップが表示され，投稿の場所にピンが表示される．ユーザーが投稿をすると，感情分析の結果が即座にレーダーチャートに表示される．
 
 ### テニスコートの空き状況確認ツール
 
