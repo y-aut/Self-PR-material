@@ -73,9 +73,9 @@ frontend: `react-router-dom`, `typescript`, `@emotion`, `@mui`, `@react-google-m
 
 <div style="display: flex; gap: 10px; margin: 10px 0;">
   <img src="./img/utakai/home.png" alt="ホーム画面" width="200pt">
-  <img src="./img/utakai/home_search.png" alt="ホーム画面" width="200pt">
-  <img src="./img/utakai/post_detail.png" alt="ホーム画面" width="200pt">
-  <img src="./img/utakai/ranking.png" alt="ホーム画面" width="200pt">
+  <img src="./img/utakai/home_search.png" alt="検索画面" width="200pt">
+  <img src="./img/utakai/post_detail.png" alt="投稿詳細画面" width="200pt">
+  <img src="./img/utakai/ranking.png" alt="ランキング画面" width="200pt">
 </div>
 
 ↑ ホーム画面にはマップが表示され，投稿の場所にピンが表示される．ユーザーが投稿をすると，感情分析の結果が即座にレーダーチャートに表示される．
